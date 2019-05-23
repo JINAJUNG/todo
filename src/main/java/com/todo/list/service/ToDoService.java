@@ -14,6 +14,6 @@ public class ToDoService {
 	private ToDoRepo toDoRepo;
 	
 	public List<ToDoEntity> UserToDoList(Long userSeq){
-		return null;
+		return toDoRepo.findAll();
 	}
 }
